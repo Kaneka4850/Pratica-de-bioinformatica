@@ -1,0 +1,34 @@
+# Gabarito e solução do professor: NUNCA versionar
+molde/
+**/molde/
+
+# Referências baixadas e índices (cada um gera com scripts/00_reference/preparar_referencia.sh)
+dados/00_reference/**/*
+!dados/00_reference/**/
+!dados/00_reference/**/.gitkeep
+
+# Saídas do pipeline (cada grupo gera as suas)
+dados/01_raw_data/trimmed/
+dados/02_alignment/**/*
+dados/03_variant_calling/**/*
+dados/04_annotate/**/*
+dados/05_results/**/*
+dados/06_quality_metrics/**/*
+!dados/0[2-6]_*/**/
+!dados/0[2-6]_*/**/.gitkeep
+
+# Gerados pelo main.sh / Snakemake
+.snakemake/
+config/recursos.yaml
+
+# Node, Python e R
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.Rhistory
+.RData
+
+# Sistema
+.DS_Store
+Thumbs.db

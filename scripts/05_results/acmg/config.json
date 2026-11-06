@@ -1,0 +1,44 @@
+{
+  "_leia": "Parâmetros do classificador ACMG. Arquivo do professor: os grupos NÃO devem alterar. Qualquer mudança aparece no conferir_integridade.sh.",
+  "versao": "1.0.0",
+
+  "frequencia": {
+    "_fonte": "gnomAD grpmax = maior frequência entre as populações afr, amr, eas, nfe e sas (exomas e genomas). Richards 2015; ClinGen SVI BA1 (Ghosh 2018); ClinGen SVI PM2 v1.0 (2020).",
+    "populacoes_grpmax": ["afr", "amr", "eas", "nfe", "sas"],
+    "ba1_maior_que": 0.05,
+    "bs1_maior_que": 0.01,
+    "pm2_menor_que": 0.0001
+  },
+
+  "revel": {
+    "_fonte": "Pejaver et al. 2022, AJHG 109:2163, Tabela 2 (REVEL). PP3/BP4 pelo REVEL valem só para missense.",
+    "_nota": "Na Tabela 2, REVEL <= 0,003 é BP4 Very Strong. Aqui o BP4 fica limitado a Strong (decisão conservadora do exercício). Para usar Very Strong, acrescente \"VeryStrong\": 0.003 em bp4.",
+    "pp3": { "Strong": 0.932, "Moderate": 0.773, "Supporting": 0.644 },
+    "bp4": { "Supporting": 0.290, "Moderate": 0.183, "Strong": 0.016 }
+  },
+
+  "spliceai": {
+    "_fonte": "Walker et al. 2023, AJHG 110:1046 (recomendações ClinGen SVI Splicing).",
+    "pp3_maior_ou_igual": 0.2,
+    "bp4_menor_ou_igual": 0.1
+  },
+
+  "pontos": {
+    "_fonte": "Tavtigian et al. 2018 (Genet Med 20:1054) e 2020 (Hum Mutat 41:1734).",
+    "forca": { "Supporting": 1, "Moderate": 2, "Strong": 4, "VeryStrong": 8, "StandAlone": 8 },
+    "patogenica_minimo": 10,
+    "provavelmente_patogenica_minimo": 6,
+    "vus_minimo": 0,
+    "provavelmente_benigna_minimo": -6
+  },
+
+  "genes_pp2": {
+    "_leia": "Genes com poucas missense benignas em que missense é mecanismo comum de doença (PP2). Lista vazia = PP2 não é aplicado automaticamente; informe pelo arquivo de evidências.",
+    "lista": []
+  },
+
+  "genes_bp1": {
+    "_leia": "Genes em que só variantes truncantes causam doença (BP1 para missense). Lista vazia = BP1 não é aplicado automaticamente; informe pelo arquivo de evidências.",
+    "lista": []
+  }
+}

@@ -1,0 +1,39 @@
+# =============================================================================
+# Ambiente conda do exercício (o mesmo arquivo monta a imagem Docker).
+# Crie com:   bash scripts/lib/criar_conda.sh
+# Ative com:  conda activate bioinfo-pratica
+# PARTE PRONTA DO EXERCÍCIO. Não altere.
+# =============================================================================
+name: bioinfo-pratica
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  # Linguagens dos alunos (Python, R; Bash já vem no sistema)
+  - python=3.14
+  - r-base>=4.4
+  # Engine das partes prontas: anotador (JavaScript) e classificador (TypeScript)
+  - nodejs=24
+  # Orquestração
+  - snakemake>=9
+  # Ferramentas de bioinformática
+  - fastqc
+  - fastp
+  - bwa
+  - samtools
+  - bcftools
+  - htslib
+  - bedtools
+  - gatk4
+  # Bibliotecas Python
+  - pandas
+  - pyyaml
+  - psutil
+  - requests
+  # Bibliotecas R
+  - r-optparse
+  - r-data.table
+  # Utilitários
+  - curl
+  - coreutils

@@ -1,0 +1,8 @@
+# Scripts precisam de fim de linha Linux (LF), senão o bash falha no WSL/macOS.
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.gz binary
+*.pdf binary
+*.bam binary
+*.bai binary
+*.cram binary

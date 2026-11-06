@@ -1,0 +1,21 @@
+# =============================================================================
+# Configuração do exercício
+# -----------------------------------------------------------------------------
+# O grupo só precisa mudar "genoma" (hg19 ou hg38), conforme o grupo em que está.
+# Também dá para escolher na hora: bash main.sh --genoma hg19
+# Caminhos relativos à pasta principal do projeto.
+# =============================================================================
+
+# Build do genoma de referência do grupo: hg19 (GRCh37) ou hg38 (GRCh38).
+genoma: "hg38"
+
+# Nome da amostra: aparece nos nomes dos arquivos e no read group do BAM.
+amostra: "cap_ngse_a_2020"
+
+# FASTQs paired-end da amostra do CAP (só cromossomo 17).
+fastq_r1: "dados/01_raw_data/cap-ngse-a-2020-chr17_S1_L001_R1_001.fastq.gz"
+fastq_r2: "dados/01_raw_data/cap-ngse-a-2020-chr17_S1_L001_R2_001.fastq.gz"
+
+# Arquivo opcional de evidências manuais para o classificador ACMG
+# (deixe vazio se não usar; veja o README, seção do classificador).
+evidencias: ""

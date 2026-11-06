@@ -1,0 +1,5 @@
+# A imagem só precisa do environment.yml e do package*.json: o resto é montado em /pipeline.
+*
+!environment.yml
+!package.json
+!package-lock.json

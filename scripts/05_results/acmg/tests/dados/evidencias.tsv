@@ -1,0 +1,5 @@
+# Exemplo de arquivo de evidências manuais (dados fictícios, só para os testes).
+variante	criterio	forca	justificativa
+17:43057062:G:A	PS3		Ensaio funcional mostra perda de função (exemplo)
+chr17-7675088-C-T	PP4	apoio	Fenótipo muito específico (exemplo)
+BRCA1:c.5000del	PS2_muito_forte		De novo com paternidade confirmada (exemplo)

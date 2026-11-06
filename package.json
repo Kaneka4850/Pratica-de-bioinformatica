@@ -1,0 +1,18 @@
+{
+  "name": "pratica-bioinfo-fastq-vcf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Atividade prática: pipeline FASTQ -> VCF com anotador VEP (JavaScript) e classificador ACMG (TypeScript) prontos",
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "test": "node --test scripts/05_results/acmg/tests/*.test.ts",
+    "tipos": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "7.0.2"
+  }
+}

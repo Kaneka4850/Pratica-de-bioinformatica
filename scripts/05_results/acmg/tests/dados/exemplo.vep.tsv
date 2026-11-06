@@ -1,0 +1,6 @@
+cromossomo	posicao	ref	alt	genotipo	filtro	gene	transcrito	mane	exon	intron	hgvs_c	hgvs_p	consequencia	impacto	gnomad_af	gnomad_grpmax_af	revel	spliceai_max	clinvar	ids_conhecidos
+chr17	43057062	G	A	0/1	PASS	BRCA1	ENST00000357654	NM_007294.4	10/23		c.1687C>T	p.Gln563Ter	stop_gained	HIGH				0.05	pathogenic	
+chr17	43071077	T	C	0/1	PASS	BRCA1	ENST00000357654	NM_007294.4	10/23		c.2082C>T	p.Ser694=	synonymous_variant	LOW	0.3383	0.4993		0	benign	rs1799949
+chr17	7675088	C	T	0/1	PASS	TP53	ENST00000269305	NM_000546.6	5/11		c.524G>A	p.Arg175His	missense_variant	MODERATE	0.000004104	0.0000147	0.922	0.01	pathogenic,likely_pathogenic	rs28934578
+chr17	43045712	A	G	1/1	PASS	BRCA1	ENST00000357654	NM_007294.4		22/22	c.5468-30T>C		intron_variant	MODIFIER				0.02		
+chr17	7669620	AG	A	0/1	PASS	TP53	ENST00000269305	NM_000546.6	11/11		c.1100del	p.Pro367GlnfsTer4	frameshift_variant	HIGH				0		
