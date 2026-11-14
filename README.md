@@ -509,6 +509,12 @@ entender o classificador.
 
 ---
 
+## Procedência do código
+
+O anotador e o classificador ACMG foram desenvolvidos de forma independente, para fins de ensino,
+a partir de artigos publicados (listados em `Artigos/REFERENCIAS.md`) e da API pública do Ensembl,
+sem uso de código, regras, bancos ou critérios internos de qualquer empresa ou laboratório.
+
 ## 11. Comparação hg19 x hg38 (pronta)
 
 Quando existem `dados/05_results/hg19/<amostra>.acmg.tsv` **e** `dados/05_results/hg38/<amostra>.acmg.tsv`,

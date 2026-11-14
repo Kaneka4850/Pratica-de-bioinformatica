@@ -4,6 +4,11 @@
 // PARTE PRONTA DO EXERCÍCIO: validada pelo professor. Não altere.
 // Escrito em TypeScript; o Node 24 executa direto (apaga os tipos), sem compilar.
 //
+// Procedência: as regras e os limiares foram implementados a partir da literatura
+// pública (Richards 2015, Tavtigian 2018/2020 e os refinamentos ClinGen SVI, como
+// Pejaver 2022 para o REVEL), referenciada em Artigos/REFERENCIAS.md. O código foi
+// escrito especificamente para esta atividade didática.
+//
 // Como usar:
 //   node scripts/05_results/acmg/classificar.ts \
 //       --entrada dados/04_annotate/hg38/amostra.vep.tsv   (ou .vep.vcf.gz) \

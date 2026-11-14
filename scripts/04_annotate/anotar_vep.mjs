@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 // =============================================================================
 // Anota um VCF pela API REST do Ensembl VEP (sem cache local).
+// A anotação usa exclusivamente a API REST pública do Ensembl VEP; o script foi
+// escrito para esta atividade didática.
 // -----------------------------------------------------------------------------
 // PARTE PRONTA DO EXERCÍCIO: validada pelo professor. Não altere.
 //

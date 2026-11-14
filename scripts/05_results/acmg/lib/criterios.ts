@@ -8,6 +8,12 @@
 //   - PP3/BP4 calibrados pelo REVEL (Pejaver et al. 2022);
 //   - SpliceAI para impacto em splicing (Walker et al. 2023);
 //   - PP5 e BP6 aposentados (Biesecker & Harrison 2018): nunca aplicados.
+//
+// Procedência: as regras e os limiares foram implementados a partir da literatura
+// pública (Richards 2015, Tavtigian 2018/2020, Abou Tayoun 2018, Ghosh 2018,
+// Pejaver 2022 para o REVEL, Walker 2023 para o SpliceAI, Biesecker & Harrison 2018
+// e a recomendação ClinGen SVI para PM2), referenciada em Artigos/REFERENCIAS.md.
+// O código foi escrito especificamente para esta atividade didática.
 // =============================================================================
 
 import type { Config, Criterio, Forca, Limiares, Variante } from "./tipos.ts";
